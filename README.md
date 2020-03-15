@@ -1,4 +1,4 @@
-# Tensor guide
+# Tensorflow guide
 
 TensorFlow 2 focuses on simplicity and ease of use, with updates like eager execution, intuitive higher-level APIs, and flexible model building on any platform.
 
