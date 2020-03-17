@@ -28,8 +28,7 @@ spec:
           limits:
             cpu: "1"
             memory: 4Gi
-        volumes:
-          - name: lessons
+        default_volume_mapping: true
   - name: standalone
     resources:
     - name: worker
