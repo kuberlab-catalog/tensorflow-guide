@@ -100,12 +100,6 @@ spec:
   volumes:
   - name: training
     clusterStorage: {{ .storage.value }}
-  - gitRepo:
-      repository: {{ gitRepo .src.value }}
-      accountId: '{{ .src.accountId }}'
-      revision: '{{ .src.revision }}'
-    name: src
-    subPath: {{ gitSubPath .src.value }}
   - isLibDir: true
     name: lib
     clusterStorage: {{ .storage.value }}
